@@ -36,13 +36,13 @@ entity Project {
   referenceproject: String(10);
   projectlength: Integer;
   type: String;
-  equipmentType: Association to many EquipmentType;
+  equipmentType: String;
   geojson: String; 
   chainagefrom: String;
   chainageto: String;
-  contractorno: Association to many ContractorNo;
+  contractorno: String;
   pmcno: Association to many PMCNo;
-  clientno: Association to many ClientNo;
+  clientno: String;
   workInstruction: String;
   isAllowMap: Boolean;
   assigned: Association to many AssignedUsers;
